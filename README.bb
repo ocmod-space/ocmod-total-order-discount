@@ -27,12 +27,12 @@ See [url=https://git.io/JvRCU]How-To[/url] on Github
 * [url=http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/total/order_discount]Admin Demo[/url]
 * [url=http://ocmod.freevar.com/oc3020/a]Front Demo[/url]
 
-[b]Links[/b]
-* [url=https://git.io/JvRCU]GitHub[/url]
-* [url=https://underr.space/notes/projects/project-0011.html]Homepage[/url]
-
 [b]License[/b]
 [url=https://git.io/JvRCT]End-User License Agreement[/url]
+
+[b]Additional Links[/b]
+[url=https://github.com/search?q=underr-ua%2Focmod3-&type=Repositories]GitHub[/url]
+[url=https://underr.space/tag:opencart]Homepage[/url]
 
 [b]Related modules and extensions[/b]
 * [url=https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=33296]Total Order Discount (free)[/url]

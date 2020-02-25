@@ -23,10 +23,9 @@ The Total Order Discount+ extension is for OpenCart CMS 3. It allows to create a
 * [Admin Demo](http://ocmod.freevar.com/oc3020/a/admin/index.php?route=extension/total/order_discount)
 * [Front Demo](http://ocmod.freevar.com/oc3020/a)
 
-## Links
-* [Opencart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=35103)
-* [Github](https://git.io/JvRCU)
-* [Homepage](https://underr.space/notes/projects/project-011.html)
-
 ## License
 * [End-User License Agreement](https://git.io/JvRCT)
+
+## Additional Links
+* [Homepage](https://underr.space/tag:opencart)
+* [OpenCart Marketplace](https://www.opencart.com/index.php?route=marketplace/extension&filter_member=ocmod.space)
