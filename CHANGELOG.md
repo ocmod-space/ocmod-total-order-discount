@@ -1,6 +1,6 @@
 # Change log
 
-## [4.0.0] - 2020.02.25:
+## [4.0.0] - 2020.02.27:
 ### Added
 - Full-fladged multistore support
 ### Changed

@@ -6,6 +6,7 @@
 !*.md
 
 # Ignore
+arc
 img
 *.code-workspace
 *.bb
