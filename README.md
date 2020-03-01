@@ -19,7 +19,6 @@ The Total Order Discount+ extension is for OpenCart CMS 3. It allows to create a
 * Multilinguage custom warning messages
 * Full-fledged multi-store support
 * Journal 3 theme compatibility
-* ThemeForest eMarket theme compatibility
 * OCMOD - doesn't change OpenCart files
 
 ## Live demo
