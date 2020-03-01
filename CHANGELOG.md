@@ -1,5 +1,12 @@
 # Change log
 
+## [4.1.0] - 2020.02.28:
+### Added
+- Skip Specials/Discounts option
+### Fixed
+- Discount calculation after tax
+- Auto sorting entries by selected template
+
 ## [4.0.0] - 2020.02.27:
 ### Added
 - Full-fladged multistore support

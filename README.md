@@ -10,10 +10,12 @@ The Total Order Discount+ extension is for OpenCart CMS 3. It allows to create a
 * Unlimited number of discount rates
 * Percentage or fixed discount
 * Extra fee charge
+* Calculation of discounts on amount before/after tax
 * Target customer types (registered accounts and/or guests).
 * Target customer group for each discount rate
 * Date range for each discount rate
-* Category filter with white/black lists
+* Filtering products with white/black category lists
+* Filtering products with discounts and special prices
 * Multilinguage custom warning messages
 * Full-fledged multi-store support
 * Journal 3 compatibility
