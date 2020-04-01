@@ -5,9 +5,9 @@
 * Admin > Extensions > Installer > [Upload]: total-order-discount-plus.ocmod.zip
 * Admin > Extensions > Modifications > [Refresh]
 * Admin > Dashboard > [Developer Settings] > [Refresh]
+* Admin > Extensions > Extensions > Order Totals > [underr] Total Order Discount+ > [Install]
 
 ## How to configure
-* Admin > Extensions > Extensions > Order Totals > [underr] Total Order Discount+ > [Install]
 * Admin > Extensions > Extensions > Order Totals > [underr] Total Order Discount+ > [Edit]
 
 ## How to uninstall

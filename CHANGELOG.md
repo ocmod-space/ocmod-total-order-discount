@@ -1,5 +1,9 @@
 # Change log
 
+## [4.1.1] - 2020.04.01:
+### Changed
+- Minor template changes
+
 ## [4.1.0] - 2020.02.28:
 ### Added
 - Skip Specials/Discounts option
