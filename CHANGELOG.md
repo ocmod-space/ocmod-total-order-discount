@@ -1,5 +1,9 @@
 # Change log
 
+## [4.1.2] - 2020.11.14:
+### Internal
+- Internal improvements
+
 ## [4.1.1] - 2020.04.01:
 ### Changed
 - Minor template changes
