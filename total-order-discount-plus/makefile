@@ -3,6 +3,7 @@ bin_dir=bin
 img_dir=img
 src_dir=src
 zip_dir=zip
+dt=$(shell date +"%Y%m%d-%H%M%S")
 pwd_file=hideg.pwd
 ocm_file=$(mod_name).ocmod.zip
 ymd=202001010000.00
@@ -27,7 +28,8 @@ default: zip
 
 # making zip-file
 zip: enc
-	if [ -d $(zip_dir) ]; then rm -f "$(zip_dir)/$(ocm_file)"; else mkdir -p "$(zip_dir)"; fi
+	# if [ -d $(zip_dir) ]; then rm -f "$(zip_dir)/$(ocm_file)"; else mkdir -p "$(zip_dir)"; fi
+	if [ -d $(zip_dir) ]; then mv "$(zip_dir)/$(ocm_file)" "$(zip_dir)/$(mod_name)-$(dt).ocmod.zip"; else mkdir -p "$(zip_dir)"; fi
 
 	@echo Setting date/time...
 	@find "$(src_dir)" -exec touch -a -m -t $(ymd) {} \;

@@ -1,5 +1,9 @@
 # Change log
 
+## [4.1.3] - 2021.03.03:
+### Changed
+- Journal3 compatibility moved to an addon
+
 ## [4.1.2] - 2020.11.14:
 ### Internal
 - Internal improvements
