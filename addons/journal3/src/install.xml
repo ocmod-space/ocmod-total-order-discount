@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This file is part of "MOD_FULL_NAME" project and subject to the terms
+and conditions defined in file "LICENSE_FILE", which is part of this source
+code package and also available on the project page: https://git.io/GITHUB_REPO_ID.
+-->
+
+<modification>
+	<name>[underr] Compatibility Addon: Total Order Discount+ > Journal3</name>
+	<code>total-order-discount-plus-j3</code>
+	<version>1.0.0</version>
+	<author>Andrii Burkatskyi aka underr</author>
+	<link>https://git.io/JtjHq</link>
+    <file error="log" path="catalog/model/journal3/checkout.php">
+        <operation error="log">
+            <search>
+                <![CDATA[$taxes = $this->cart->getTaxes();]]>
+            </search>
+            <add position="replace">
+                <![CDATA[/// << Total Order Discount+
+			if ($this->config->get('total_order_discount_status')) {
+				$this->load->model('extension/total/order_discount');
+
+				$taxes = $this->model_extension_total_order_discount->getTaxes();
+			} else {
+				$taxes = $this->cart->getTaxes();
+			}
+			/// Total Order Discount+ >>]]>
+            </add>
+        </operation>
+    </file>
+
+    <file error="log" path="catalog/view/theme/journal3/template/common/cart.twig">
+        <operation error="log">
+            <search>
+                <![CDATA[{% if product.option %}]]>
+            </search>
+            <add position="replace">
+                <![CDATA[{% if product.has_discount and discount_warning %} <span class="text-info">*</span> {% endif %}{% if product.option %}]]>
+            </add>
+        </operation>
+    </file>
+
+    <file error="log" path="catalog/view/theme/journal3/template/common/cart.twig">
+        <operation error="log">
+            <search>
+                <![CDATA[<div class="cart-buttons">]]>
+            </search>
+            <add position="before">
+                <![CDATA[
+  {# <<< Total Order Discount+ #}
+
+  {% if discount_warning %}
+
+  <div class="alert alert-info alert-dismissible"><i class="fa fa-exclamation-circle"></i> {{ discount_warning }}
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+  </div>
+
+  {% endif %}
+
+  {# Total Order Discount+ >>> #}]]>
+            </add>
+        </operation>
+    </file>
+</modification>
